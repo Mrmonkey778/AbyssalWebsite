@@ -19,6 +19,7 @@ public class ContentService {
     }
 
     @Autowired
+
     public List<Content> getContent(){
         return contentRepository.findAll();
     }
